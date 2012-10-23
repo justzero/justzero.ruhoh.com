@@ -1,13 +1,14 @@
-title : Blog Title
-tagline: Blog Tagline
+title : Justzero's WebSite
+tagline: K.I.S.S
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Bing Gong
+  email : gb.justzero@gmail.com
+  github : justzero
+  twitter : justzero
+  feedburner : Justzero's WebSite
 
 navigation :
+  - index.html
   - archive.html
   - tags.html
   - categories.html
