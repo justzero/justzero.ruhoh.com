@@ -9,6 +9,8 @@
 
   "javascripts" : {
     "default" : [
+      "angular-1.0.1.min.js",
+      "fix.js"
     ]
   },
   
