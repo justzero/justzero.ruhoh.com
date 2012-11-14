@@ -6,6 +6,8 @@ categories:
     - 'javascript'
     - '学习'
     - '技术技巧'
+js:
+    - 'a.js'
 ---
 
 ## 验证多余的逗号在不同浏览器下的处理

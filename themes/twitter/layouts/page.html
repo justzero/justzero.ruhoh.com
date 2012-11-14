@@ -11,3 +11,9 @@ layout : default
     {{{ content }}}
   </div>
 </div>
+
+{{# posts_latest }}
+    {{# js }}
+    <script type="text/javascript" src="{{urls.media}}/{{ . }}"></script>
+    {{/ js}}
+{{/ posts_latest }}

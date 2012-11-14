@@ -1,5 +1,4 @@
 title : Justzero's WebSite
-tagline: K.I.S.S
 author :
   name : Bing Gong
   email : gb.justzero@gmail.com
@@ -10,8 +9,5 @@ author :
 navigation :
   - index.html
   - archive.html
-  - tags.html
-  - categories.html
-  - pages.html
   - about.html
   

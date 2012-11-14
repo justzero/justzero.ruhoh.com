@@ -4,10 +4,10 @@ date: '2012-11-07'
 description: '介绍angularJS'
 categories:
     - '学习'
+js:
+    - javascripts/angularjs/app.js
 layout: 'df-post'
 ---
-
-<script type="text/javascript" src="{{urls.media}}/javascripts/angularjs/app.js"></script>
 
 <div ng-controller="helloworld">
 <a href="[[url.angularDownload]]" >
