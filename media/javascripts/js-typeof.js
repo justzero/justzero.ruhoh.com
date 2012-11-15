@@ -31,8 +31,18 @@ var typeoflist = function ($scope) {
     },
     {
         num: '6',
-        key: 'Object',
+        key: 'Object(native and does not implement[[Call]])',
         val: '"object"'
+    },
+    {
+        num: '7',
+        key: 'Object(native or host and does implement[[Call]])',
+        val: '"function"'
+    },
+    {
+        num: '8',
+        key: 'Object(host and does not implement[[Call]])',
+        val: '"undefined", "boolean", "number", "string"'
     }
     ];
 };

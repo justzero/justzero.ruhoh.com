@@ -38,7 +38,7 @@ js:
 <tr ng-repeat="item in list">
 <th>[[item.num]]</th>
 <td>[[item.key]]</td>
-<td>[[item.val]]</td>
+<td><code>[[item.val]]</code></td>
 </tr>
 </tbody>
 </table>
