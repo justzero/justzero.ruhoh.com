@@ -11,4 +11,4 @@ posts:
   latest: 10
 
 pages:
-  permalink: 'pretty'
+  #permalink: 'pretty'

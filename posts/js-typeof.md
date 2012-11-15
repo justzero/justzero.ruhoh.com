@@ -6,6 +6,8 @@ categories:
     - javascript
     - 学习
     - ecma5
+js:
+    - javascripts/js-typeof.js
 ---
 
 ## Javascript中的typeof用法
@@ -32,31 +34,11 @@ categories:
 <th>Result</th>
 </tr>
 </thead>
-<tbody>
-<tr>
-<th>#</th>
-<td>Undefined</td>
-<td><code>"undefined"</code></td>
-</tr>
-<tr>
-<th>#</th>
-<td>Null</td>
-<td><code>"object"</code></td>
-</tr>
-<tr>
-<th>#</th>
-<td>Boolean</td>
-<td><code>"Boolean"</code></td>
-</tr>
-<tr>
-<th>#</th>
-<td>Number</td>
-<td><code>"number"</code></td>
-</tr>
-<tr>
-<th>#</th>
-<td>String</td>
-<td><code>"string"</code></td>
+<tbody ng-controller="typeoflist">
+<tr ng-repeat="item in list">
+<th>[[item.num]]</th>
+<td>[[item.key]]</td>
+<td>[[item.val]]</td>
 </tr>
 </tbody>
 </table>

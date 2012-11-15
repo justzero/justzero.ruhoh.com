@@ -10,7 +10,7 @@ categories:
 ---
 
 ## 利用传入参数不同实现方法重载
-<span class="label label-warning"> 首先声明：本文只做技术兴趣讨论，我需考虑性能，可读性，可维护性方面问题 </span>
+<span class="label label-warning"> 首先声明：本文只做技术兴趣讨论，无需考虑性能，可读性，可维护性方面问题 </span>
 ----
 首先上代码：
 
