@@ -6,6 +6,26 @@ layout : default
 </div>
 
 <div class="row">
+
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>{{ page.date }}</span></div>
+    <br>
+    <h4>Categories</h4>
+    <ul class="tag_box">
+    {{# page.categories?to_categories }}
+      {{> categories_list }}
+    {{/ page.categories?to_categories }}
+    </ul>
+    <br>
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    {{# page.tags?to_tags }}
+      {{> tags_list }}
+    {{/ page.tags?to_tags }}
+    </ul>
+  </div>
+
   <div class="span8">
     {{{ content }}}
     <hr>
@@ -32,22 +52,4 @@ layout : default
     </div>
   </div>
   
-  <div class="span4">
-    <h4>Published</h4>
-    <div class="date"><span>{{ page.date }}</span></div>
-    <br>
-    <h4>Categories</h4>
-    <ul class="tag_box">
-    {{# page.categories?to_categories }}
-      {{> categories_list }}
-    {{/ page.categories?to_categories }}
-    </ul>
-    <br>
-    <h4>Tags</h4>
-    <ul class="tag_box">
-    {{# page.tags?to_tags }}
-      {{> tags_list }}
-    {{/ page.tags?to_tags }}
-    </ul>
-  </div>
 </div>

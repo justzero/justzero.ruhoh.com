@@ -6,7 +6,7 @@ categories:
     - '学习'
 js:
     - javascripts/angularjs/app.js
-layout: 'df-post'
+layout: 'post'
 ---
 
 <div ng-controller="helloworld">

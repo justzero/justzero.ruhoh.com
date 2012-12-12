@@ -2,13 +2,15 @@
   "stylesheets" : {
     "default" : [
       "bootstrap.min.css",
-      "style.css"
+      "style.css",
+      "prettify.css"
     ],
    
   },
 
   "javascripts" : {
     "default" : [
+      "bootstrap.js",
       "angular-1.0.1.min.js",
       "fix.js"
     ]
