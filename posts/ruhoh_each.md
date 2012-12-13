@@ -18,8 +18,6 @@ categories:
     |-- posts //单位文章页
     |-- themes //主题选择（默认）
 
-<div class="hr"></div>
-
 > ### posts详细介绍
 > 首先通过 <code>ruhoh post helloworld</code> 在<code>posts\\</code>目录下创建<code>helloworld.md</code>文件
 

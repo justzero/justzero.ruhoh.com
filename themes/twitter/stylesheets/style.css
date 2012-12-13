@@ -42,18 +42,21 @@ html, body {
 }
 
 /* posts index */
+.page-header > h3.title ,
 .post > h3.title {
+    font-size: 30px;
     position: relative;
     height: 50px;
     padding: 10px 0px 10px 100px;
     text-shadow: 4px 4px 4px #aaa;
 }
+.page-header > h3.title span.date ,
 .post > h3.title span.date {
     font-family: 'Tangerine', serif;
     font-size: 48px;
     position:absolute;
     left: -45px;
-    top: 5px;
+    top: 9px;
     display: block;
 }
 .post > .more {
@@ -71,11 +74,12 @@ html, body {
 .tag_box {
     list-style:none;
     margin:0;
-    padding:5px 0 ;
+    padding:0 ;
     overflow:hidden;
 }
 .tag_box li {
-    line-height:28px;
+    line-height: 20px;
+    font-size: 10px;
 }
 .tag_box.inline li {
     float:left;
@@ -105,4 +109,12 @@ html, body {
 .post {
     padding-bottom: 10px;
     border-bottom: #ccc dashed 3px;
+}
+
+/*post style*/
+.page-header > ul.tag_box {
+
+}
+.page-header > h3.title {
+    padding-bottom: 0px;
 }
