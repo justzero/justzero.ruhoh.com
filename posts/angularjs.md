@@ -35,3 +35,4 @@ Name:  <input name="name" type="text" ng-model="name" placeholder="Enter a name 
         });
     }(angular));
 
+test!
