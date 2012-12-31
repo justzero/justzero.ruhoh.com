@@ -24,7 +24,6 @@ categories:
 </em>
 </div>
 
-<img src="/assets/media/images/fast.jpg" alt="时速表" style="width: 720px; height: 500px;" />
 > _Fast-loading Web sites -- like fast cars -- require the use speciolized tools._
 
 ### __首先，你需要问自己几个问题:__
